@@ -75,6 +75,7 @@ while True:
         switch = GPIO.input(24)
         if(switch == 1):
                 print("Button pressed")
+
         else:
                 print("Button released")
 # Un-comment the link below to convert the temperature to Fahrenheit.
@@ -91,7 +92,7 @@ while True:
                 {"dataChnId":"A","values":{"value":A}},
                 {"dataChnId":"switch","values":{"value":switch}}]} 
                 post_to_mcs(payload)
-                time.sleep(10) 
+                time.sleep(1) 
         else:
                  print('Failed to get reading. Try again!')
                  sys.exit(1)
