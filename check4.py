@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 #!/usr/bin/python
 import requests
 import socket
@@ -80,4 +78,4 @@ if __name__ == '__main__':
     setupLED()
     channel = establishCommandChannel()
     waitAndExecuteCommand(channel)
->>>>>>> check4.py
+
